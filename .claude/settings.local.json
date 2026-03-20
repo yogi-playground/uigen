@@ -16,7 +16,6 @@
       "Bash(curl -s -X POST http://localhost:3000/api/chat -H \"Content-Type: application/json\" -d '{\"\"\"\"messages\"\"\"\":[{\"\"\"\"role\"\"\"\":\"\"\"\"user\"\"\"\",\"\"\"\"content\"\"\"\":\"\"\"\"say hello\"\"\"\"}],\"\"\"\"files\"\"\"\":{}}')",
       "Bash(taskkill /F /IM node.exe)",
       "Bash(curl -s -X POST http://localhost:3003/api/chat -H \"Content-Type: application/json\" -d '{\"\"\"\"messages\"\"\"\":[{\"\"\"\"role\"\"\"\":\"\"\"\"user\"\"\"\",\"\"\"\"content\"\"\"\":\"\"\"\"say hello\"\"\"\"}],\"\"\"\"files\"\"\"\":{}}')",
-      "Bash(curl -s \"https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyB5j86E9Hv7KX8Y2JgrF5_SKMcN5n2Rq0Y\")",
       "Bash(npx vitest:*)"
     ],
     "deny": [],
