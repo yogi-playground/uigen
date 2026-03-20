@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/yogen/OneDrive/Pictures/Screenshots/**)",
+      "Bash(grep -r \"anthropic\\\\|claude\\\\|CLAUDE\\\\|claude-\" 'C:\\\\Gen AI Playground\\\\uigen\\\\src' --include=*.ts --include=*.tsx --include=*.js --include=*.jsx)",
+      "Bash(grep -r \"model\\\\|MODEL\\\\|gemini\\\\|gpt\" 'C:\\\\Gen AI Playground\\\\uigen\\\\src' --include=*.ts --include=*.tsx)",
+      "Bash(npm view:*)",
+      "Bash(for v:*)",
+      "Bash(do echo:*)",
+      "Bash(done)",
+      "Bash(python3 -c \"import sys,json; vers = json.load\\(sys.stdin\\); print\\(''''\\\\n''''.join\\(v for v in vers if v.startswith\\(''''5''''\\) or v.startswith\\(''''4.4''''\\) or v.startswith\\(''''4.5''''\\)\\)\\)\")",
+      "Bash(python3 -c \"import sys,json; vers = json.load\\(sys.stdin\\); print\\(''''\\\\n''''.join\\(v for v in vers if not v.startswith\\(''''0.0.0''''\\) and not v.startswith\\(''''0.''''\\) and not v.startswith\\(''''3''''\\) and not v.startswith\\(''''4''''\\)\\)\\)\")",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "Bash(curl -s -X POST http://localhost:3000/api/chat -H \"Content-Type: application/json\" -d '{\"\"\"\"messages\"\"\"\":[{\"\"\"\"role\"\"\"\":\"\"\"\"user\"\"\"\",\"\"\"\"content\"\"\"\":\"\"\"\"say hello\"\"\"\"}],\"\"\"\"files\"\"\"\":{}}')",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(curl -s -X POST http://localhost:3003/api/chat -H \"Content-Type: application/json\" -d '{\"\"\"\"messages\"\"\"\":[{\"\"\"\"role\"\"\"\":\"\"\"\"user\"\"\"\",\"\"\"\"content\"\"\"\":\"\"\"\"say hello\"\"\"\"}],\"\"\"\"files\"\"\"\":{}}')",
+      "Bash(curl -s \"https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyB5j86E9Hv7KX8Y2JgrF5_SKMcN5n2Rq0Y\")",
+      "Bash(npx vitest:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
